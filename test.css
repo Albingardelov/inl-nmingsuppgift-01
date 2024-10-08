@@ -111,10 +111,6 @@ footer {
 	margin-bottom: 2em;
 }
 
-#schedule ul {
-	list-style-type: none;
-}
-
 #about {
     text-align: center;
 }
@@ -149,11 +145,5 @@ footer {
 @media (max-width: 480px) {
     .image-gallery img {
         width: 100%; 
-    }
-}
-
-@media (min-width: 769px) {
-    form {
-        text-align: left; 
     }
 }
