@@ -5,8 +5,8 @@
 }
 
 body {
-    background-color: rgb(33, 33, 33);
-    color: #ffffff;
+    background-color: rgb(255, 211, 114);
+    color: rgb(34, 34, 34);
     font-family: 'DM Sans', sans-serif;
     line-height: 1.6;
     margin: 0;
@@ -16,13 +16,14 @@ body {
 header {
     padding: 20px;
     text-align: center;
-    background-color: rgb(33, 33, 33);
-    border-bottom: 1px solid orange;
+    background-color: rgb(255, 211, 114);
+    border-bottom: 3px solid rgb(255, 211, 114);
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+	margin-top: 2.5em;
 }
 
 nav ul li {
@@ -32,19 +33,26 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     font-weight: bold;
-	
+	background-color: rgb(241, 91, 64);
+	padding: 1em;
+	border-radius: 3em;
+	border-bottom: 4px solid rgb(34, 34, 34);
+	transition: 0.5s;
 }
 
 nav ul li a:hover {
     text-decoration: none;
-    color: #ffffff;
+	background-color: rgb(136, 193, 248);
+    color: rgb(34, 34, 34);
     font-weight: bold;
-	border-bottom: 1px solid orange;
+	border-bottom: none;
+	border-top: 4px solid rgb(34, 34, 34);
 	position:relative;
-	bottom: 0.5em;
-	right: 0.5em;
+	top: 0.5em;
+	left: 0.5em;
+	transition: 0.5s;	
 }
 
 section {
@@ -55,7 +63,12 @@ section {
 form {
     max-width: 600px;
     margin: 0 auto; 
-    text-align: center; 
+    text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-grow: 1;
+	flex-wrap: wrap; 
 }
 
 label {
@@ -67,9 +80,12 @@ label {
 input, select {
     width: 100%;
     padding: 10px;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
+	margin-right: 3em;
+    margin-left: 3em; 
     border: 1px solid #ddd;
-    border-radius: 0.3em;
+    border-radius: 3em;
+	background-color: rgb(242, 230, 203);
 }
 
 input[type="checkbox"] {		
@@ -77,24 +93,25 @@ input[type="checkbox"] {
 }
 
 button {
-    padding: 15px 30px;
-    background-color: #888888;
-    color: #ffffff;
-    border: none;
-    border-radius: 0.3em;
+    padding: 15px 70px;
+    background-color: rgb(241, 91, 64);
+    color: rgb(255, 255, 255);
+    border-bottom: 4px solid rgb(34, 34, 34);
+    border-radius: 3em;
     cursor: pointer;
     transition: 0.5s;
 }
 
 button:hover {
-    background-color: #9fee88;
+    background-color: rgb(136, 193, 248);
+	color: rgb(34, 34, 34);
     transition: 0.5s;
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: rgb(33, 33, 33);
+    background-color: rgb(242, 230, 203);
     border-top: 1px solid #ddd;
 }
 
@@ -108,7 +125,7 @@ footer {
     flex-wrap: wrap; 
     gap: 0.5em; 
     padding: 10px;
-	background-color: rgb(56, 56, 56);
+	background-color: rgb(242, 230, 203);
 
 }
 
@@ -136,9 +153,12 @@ footer {
 
 #about {
     text-align: center;
-	background-color: rgb(24, 24, 24);
+	background-color: rgb(255, 211, 114);
 }
 
+#register {
+	background-color: rgb(255, 211, 114);
+}
 
 
 #register h2 {
@@ -147,7 +167,8 @@ footer {
 
 #schedule {
     text-align: center;
-	background-color: rgb(24, 24, 24);
+	background-color: rgb(241, 91, 64);
+	color: rgb(242, 230, 203);
 }
 
 #days {
@@ -183,9 +204,10 @@ textarea {
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ddd;
-    border-radius: 4px;
+    border-radius: 3em;
     font-family: inherit;
-	resize: none; 	 
+	resize: none;
+	background-color: rgb(242, 230, 203); 	 
 }
 
 @media (max-width: 768px) {
