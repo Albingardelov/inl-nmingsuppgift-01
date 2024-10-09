@@ -172,12 +172,14 @@ h1, h2, h3 {
 }
 
 textarea {
+	height: 5em;
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    font-family: inherit; 	 
+    font-family: inherit;
+	resize: none; 	 
 }
 
 @media (max-width: 768px) {
