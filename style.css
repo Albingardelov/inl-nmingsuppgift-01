@@ -48,6 +48,7 @@ nav ul li a {
 	padding: 1em;
 	border-radius: 3em;
 	border-bottom: 4px solid rgb(34, 34, 34);
+	border-right: 4px solid rgb(34, 34, 34);
 	transition: 0.5s;
 	display: flex;
 	flex-grow: 1;
@@ -63,9 +64,11 @@ nav ul li a:hover {
     font-weight: bold;
 	border-bottom: none;
 	border-top: 4px solid rgb(34, 34, 34);
+	border-left: 4px solid rgb(34, 34, 34);
+	border-right: none;
 	position:relative;
-	top: 0.5em;
-	left: 0.5em;
+	/* top: 0.5em;
+	left: 0.5em; */
 	transition: 0.5s;	
 }
 
