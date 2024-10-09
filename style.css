@@ -172,13 +172,12 @@ h1, h2, h3 {
 }
 
 textarea {
-    width: 100%; /* Gör så att textarean fyller ut hela bredden av formuläret */
+    width: 100%;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    font-family: inherit; /* Använder samma font som resten av sidan */
-    resize: vertical; /* Tillåter användaren att ändra höjden men inte bredden */
+    font-family: inherit; 	 
 }
 
 @media (max-width: 768px) {
