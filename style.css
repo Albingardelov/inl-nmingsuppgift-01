@@ -118,7 +118,12 @@ footer {
     height: auto; 
     cursor: pointer;
     box-sizing: border-box;
-	border-radius: 0.3em; 
+	border-radius: 0.3em;
+	filter: grayscale(60%);
+}
+
+.image-gallery img:hover {
+	filter: grayscale(0%);
 }
 
 #schedule p {
