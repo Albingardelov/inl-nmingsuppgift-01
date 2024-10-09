@@ -133,6 +133,8 @@ footer {
 	background-color: rgb(24, 24, 24);
 }
 
+
+
 #register h2 {
     text-align: center;
 }
@@ -196,4 +198,9 @@ textarea {
     form {
         text-align: left; 
     }
+
+	#about p {
+		margin-left: 8em;
+		margin-right: 8em;
+	}
 }
